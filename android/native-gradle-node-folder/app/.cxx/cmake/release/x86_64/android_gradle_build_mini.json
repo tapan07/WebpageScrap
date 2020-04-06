@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Namastecredit\\Documents\\Official\\node\\android\\native-gradle-node-folder\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Namastecredit\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Namastecredit\\Documents\\Official\\node\\android\\native-gradle-node-folder\\app\\.cxx\\cmake\\release\\x86_64 --target clean"
+  ],
+  "libraries": {
+    "libnode-Release-x86_64": {
+      "artifactName": "libnode",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Namastecredit\\Documents\\Official\\node\\android\\native-gradle-node-folder\\app\\libnode\\bin\\x86_64\\libnode.so"
+    },
+    "native-lib-Release-x86_64": {
+      "artifactName": "native-lib",
+      "buildCommand": "C:\\Users\\Namastecredit\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Namastecredit\\Documents\\Official\\node\\android\\native-gradle-node-folder\\app\\.cxx\\cmake\\release\\x86_64 --target native-lib",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Namastecredit\\Documents\\Official\\node\\android\\native-gradle-node-folder\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libnative-lib.so"
+    }
+  }
+}

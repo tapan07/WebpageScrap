@@ -1,0 +1,49 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/Users/Namastecredit/Documents/Official/node/android/native-gradle-node-folder/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\Namastecredit\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Namastecredit\\Documents\\Official\\node\\android\\native-gradle-node-folder\\app\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"libnode-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libnode",
+			"buildType" : "release",
+			"output" : "C:/Users/Namastecredit/Documents/Official/node/android/native-gradle-node-folder/app/libnode/bin/armeabi-v7a/libnode.so",
+			"toolchain" : "3745281305"
+		},
+		"native-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "C:\\Users\\Namastecredit\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Namastecredit\\Documents\\Official\\node\\android\\native-gradle-node-folder\\app\\.cxx\\cmake\\release\\armeabi-v7a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/Namastecredit/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Namastecredit/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\libnode\\include\\node  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/Namastecredit/Documents/Official/node/android/native-gradle-node-folder/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/Users/Namastecredit/Documents/Official/node/android/native-gradle-node-folder/app/.cxx/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "C:/Users/Namastecredit/Documents/Official/node/android/native-gradle-node-folder/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "3745281305"
+		}
+	},
+	"toolchains" : 
+	{
+		"3745281305" : 
+		{
+			"cCompilerExecutable" : "C:/Users/Namastecredit/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Namastecredit/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

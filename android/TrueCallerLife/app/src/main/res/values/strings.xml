@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">TrueCaller Life</string>
+  <string name="label_truecaller_life">TrueCaller Life</string>
+  <string name="unknown_error">We are unable to proceed now.</string>
+  <string name="msg_loading">Loading...</string>
+  <string name="msg_network_error">Please Check Your Internet Connection.</string>
+</resources>
